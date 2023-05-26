@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <div class="main">
+    
+  <!--step 1-->
+    <h2> Your Details</h2> 
+      <div class="name">
+        Name: <input type="text" placeholder="First and Last name">
+      </div>
+      <div class="email">
+       Email : <input type="email" placeholder="example@domain.com">
+      </div>
+      <div class="phone">
+        Phone: <input type="number" placeholder="Eg:+91 XXXXXXXXXX">
+      </div>
+
+  <!--step 2-->
+
+  <h2>Delivery address</h2>
+  <div class="address">
+    address :<input type="text">
+  </div>
+
+
+
+  <div class="pincode">
+    Pin Code :<input type="number" placeholder=""  required>
+  </div>
+  <div class="Country">
+    Country :<input type="text">
+  </div>
+  <!--step 3-->
+  <h2>Card Details</h2>
+  <div  class="card-type">
+    Card Type :
+    <input type="radio"id="select" >VISA
+    <input type="radio" id="select" >AmEx
+    <input type="radio" id="select">Mastercard
+    
+
+  </div>
+  <div class=" card-number">
+    Card Number :<input type="Text"> 
+  </div>
+  <div class="security-code">
+    security-Code : <input type="password">
+  </div>
+  <div class="name-on-card">
+    Name On card :<input type="text" placeholder="Exact name as on the card">
+  </div>
+
+  <button class="buynow" id="bttn">Buy Now</button>
+
+  </div>
+
+    
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>
